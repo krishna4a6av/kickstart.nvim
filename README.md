@@ -1,7 +1,7 @@
-# kickstart.nvim from my installations
+# kickstart.nvim from my installations(** signify mychanges)
 
 ## Introduction
-* signify mychanges
+
 A starting point for Neovim that is:
 
 * Small
