@@ -1,7 +1,7 @@
 # kickstart.nvim from my installations
 
 ## Introduction
-
+* signify mychanges
 A starting point for Neovim that is:
 
 * Small
@@ -16,7 +16,7 @@ A starting point for Neovim that is:
 
 Kickstart.nvim targets *only* the latest
 ['stable'](https://github.com/neovim/neovim/releases/tag/stable) and latest  
-```use snap in ubuntu for latest-release as lazy-vim neeed 10.x```
+```*use snap in ubuntu for latest-release as lazy-vim neeed 10.x```
 
 ['nightly'](https://github.com/neovim/neovim/releases/tag/nightly) of Neovim.
 If you are experiencing issues, please make sure you have the latest versions.
@@ -25,7 +25,7 @@ If you are experiencing issues, please make sure you have the latest versions.
 
 External Requirements:
 - Basic utils: `git`, `make`, `unzip`, C Compiler (`gcc`)
-  ```also curl for a few plugins```
+  ```*also curl for a few plugins```
 - [ripgrep](https://github.com/BurntSushi/ripgrep#installation)
 - Clipboard tool (xclip/xsel/win32yank or other depending on the platform)
 - A [Nerd Font](https://www.nerdfonts.com/): optional, provides various icons
@@ -68,15 +68,15 @@ too - it's ignored in the kickstart repo to make maintenance easier, but it's
 [recommended to track it in version control](https://lazy.folke.io/usage/lockfile).
 
 #### Clone kickstart.nvim
-> **NOTE**
+> **NOTE**OTE If following the recommended step above (i.e., forking the repo), replace nvim-lua with <your_github_username> in the commands below
 > If following the recommended step above (i.e., forking the repo), replace
 > `nvim-lua` with `<your_github_username>` in the commands below
 
->Linux and Mac 
+>Linux and Mac*
 
-```sh
+>```sh
 >git clone https://github.com/krishna4a6av/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
-```
+>```
 
 <details><summary> Windows </summary>
 
